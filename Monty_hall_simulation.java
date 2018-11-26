@@ -21,7 +21,7 @@ public class Monty_hall_simulation
 			
 			//cdoor = car door
 			int cdoor = rand.nextInt(3) + 1;
-			System.out.println("\ncdoor: " + cdoor);
+			//System.out.println("\ncdoor: " + cdoor);		debug line
 			
 			// Define the other two doors that have goats behind them
 			int g1door = 0; 
@@ -43,8 +43,8 @@ public class Monty_hall_simulation
 				g1door = 1;
 				g2door = 2;
 			}
-			System.out.println("\ng1door: " + g1door);
-			System.out.println("\ng2door: " + g2door);
+			//System.out.println("\ng1door: " + g1door);	debug line
+			//System.out.println("\ng2door: " + g2door);	debug line
 			
 	
 	
@@ -83,7 +83,7 @@ public class Monty_hall_simulation
 			
 			
 			System.out.println("\nWould  you like to look behind the door you chose or switch?");
-			String finalA = bread.nextLine();
+			String finalA = bread.next();
 	
 			
 			// answer stuff		
