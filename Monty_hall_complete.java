@@ -39,7 +39,7 @@ public class Monty_hall_complete
 			
 			System.out.println("Would you like to switch doors on each run?,");
 			System.out.println("Please enter switch if yes and stay if no");
-			String sors = bread.next();
+			String sors = bread.nextLine();
 			
 				while (sors.equals("switch") || sors.equals("stay"))
 				{
